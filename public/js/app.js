@@ -142,7 +142,7 @@ var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
   },
   created: function created() {
     document.addEventListener('keyup', this.escapeKeyListener);
-    console.log(__WEBPACK_IMPORTED_MODULE_1__data__["a" /* default */].title);
+    console.log(__WEBPACK_IMPORTED_MODULE_1__data__["a" /* default */]['title']);
   },
   destroyed: function destroyed() {
     document.removeEventListener('keyup', this.escapeKeyListener);
@@ -11573,7 +11573,7 @@ process.umask = function() { return 0; };
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var sample = {
+/* harmony default export */ __webpack_exports__["a"] = ({
   title: 'Central Downtown Apartment with Amenities',
   address: 'No. 11, Song-Sho Road, Taipei City, Taiwan 105',
   about: 'Come and stay at this modern and comfortable apartment! My home is centrally located right in the middle' + ' of the downtown. Talk about convenience! Shops, stores, and other destination areas are nearby. \r\n\r\nFeel the ' + 'warmth of the sun as there is plenty of natural light showers. The living room features tv, sofa, table, radio, ' + 'and fan. There is free wi-fi with a fast internet speed. \r\n\r\nForgot shopping for breakfast staples? We provide ' + 'eggs, bread, cereals, coffee, milk, tea and cookies. Enjoy cooking as my kitchen boasts full size appliances. The ' + 'dining table is for four people. Need to wash your clothes? There is a washer and a dryer. We provide hampers, ' + 'detergents, and clothing conditioner. \r\n\r\nIf you need to hit the gym, there is located at the fourth floor of ' + 'the building. There is indoor spa and pool.',
@@ -11609,9 +11609,7 @@ var sample = {
     title: 'Monthly discount',
     value: '50%'
   }]
-};
-
-/* harmony default export */ __webpack_exports__["a"] = ({ sample: sample });
+});
 
 /***/ })
 /******/ ]);
