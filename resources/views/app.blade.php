@@ -8,6 +8,11 @@
   <link rel="stylesheet" href="node_modules/open-sans-all/css/open-sans.css">
   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
   <link rel="stylesheet" href="{{asset('css/style.css')}}" type="text/css">
+  <script type="text/javascript">
+    var model = {!! $model !!}
+        console.log( model );
+
+  </script>
 </head>
 <body>
 <div id="toolbar">

@@ -142,7 +142,6 @@ var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
   },
   created: function created() {
     document.addEventListener('keyup', this.escapeKeyListener);
-    console.log(__WEBPACK_IMPORTED_MODULE_1__data__["a" /* default */]['title']);
   },
   destroyed: function destroyed() {
     document.removeEventListener('keyup', this.escapeKeyListener);

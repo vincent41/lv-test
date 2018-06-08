@@ -10,9 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\Listing;
 
-Route::get('/', function () {
-    return view('app');
+Route::get('/listing/{listing}', function (Listing $listing) {
+    return view('app')->with('model', $listing);
 });
 
 Auth::routes();
